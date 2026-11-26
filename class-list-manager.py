@@ -28,7 +28,13 @@ def names_starting_with(names, letter):
         if name.lower().startswith(letter.lower()):
             result.append(name)
     return result
-
+# Written by: Layan
+def remove_duplicates(names):
+    result = []
+    for name in names:
+        if name not in result:
+            result.append(name)
+    return result
  
 def main():
     print("Welcome to the Class List Manager!")
@@ -39,4 +45,5 @@ def main():
     print("Is Lames in the list?", search_name(names, "Lames"))
     print("Sorted names:", sort_names(names))
     print("Names starting with Y:", names_starting_with(names, "Y"))
+    print("Without duplicates:", remove_duplicates(names))
 main()
