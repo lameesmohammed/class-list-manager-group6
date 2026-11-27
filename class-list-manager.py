@@ -28,6 +28,20 @@ def names_starting_with(names, letter):
         if name.lower().startswith(letter.lower()):
             result.append(name)
     return result
+ # Written by: Dona
+def to_upper(names):
+    result = []
+    for name in names:
+        result.append(name.upper())
+    return result
+ # Written by: Dona
+def count_vowels(name):
+    count = 0
+    for letter in name.lower():
+        if letter in "aeiou":
+            count = count + 1
+    return count
+ 
 # Written by: Layan
 def remove_duplicates(names):
     result = []
@@ -45,5 +59,7 @@ def main():
     print("Is Lames in the list?", search_name(names, "Lames"))
     print("Sorted names:", sort_names(names))
     print("Names starting with Y:", names_starting_with(names, "Y"))
+    print("Uppercase names:", to_upper(names))
+    print("Vowels in Dona:", count_vowels(names[4]))
     print("Without duplicates:", remove_duplicates(names))
 main()
