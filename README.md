@@ -7,3 +7,5 @@ A Python program that manages a class list using lists and strings.
 | Lames Almarshed | search_name |
 | Yara Alqurun | sort_names |
 | Yara Alqurun | names_starting_with |
+| Dona Aldwsari | to_upper |
+| Dona Aldwsari | count_vowels |
