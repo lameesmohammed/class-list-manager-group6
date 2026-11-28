@@ -9,3 +9,4 @@ A Python program that manages a class list using lists and strings.
 | Yara Alqurun | names_starting_with |
 | Dona Aldwsari | to_upper |
 | Dona Aldwsari | count_vowels |
+| Layan Alnaim | Remove_duplicates |
